@@ -1,0 +1,63 @@
+Agriculture Production (Data Science) Report
+This project aims to analyze and provide insights into agriculture production using data science techniques. The dataset used for this project is obtained from the Agriculture Production dataset.
+
+Dataset Overview
+The dataset contains information about various agricultural features and the corresponding crop labels. It includes the following features:
+
+N: Ratio of Nitrogen content in the soil
+P: Ratio of Phosphorus content in the soil
+K: Ratio of Potassium content in the soil
+temperature: Temperature in degrees Celsius
+humidity: Relative humidity in percentage
+ph: pH value of the soil
+rainfall: Rainfall in mm
+The shape of the dataset is (N, 8), where N represents the number of data points. The dataset does not contain any missing values.
+
+Exploratory Data Analysis
+Summary Statistics
+The mean values for each feature are as follows:
+
+Mean of N: <value>
+Mean of P: <value>
+Mean of K: <value>
+Mean of temperature: <value>
+Mean of humidity: <value>
+Mean of ph: <value>
+Mean of rainfall: <value>
+Crop Summary
+Interactively, you can select a crop label to view its summary statistics. The summary includes the minimum, average, and maximum values required for each feature by the selected crop.
+
+Feature Comparison
+Interactively, you can select a feature to compare the average values across different crop labels. The output displays the average value for each crop label for the selected feature.
+
+Crop Recommendations
+Based on the analysis, the following crop recommendations are made for specific conditions:
+
+Crops requiring a very high ratio of Nitrogen content in soil: <crop labels>
+Crops requiring a very high ratio of Phosphorus content in soil: <crop labels>
+Crops requiring a very high ratio of Potassium content in soil: <crop labels>
+Crops requiring very high rainfall: <crop labels>
+Crops requiring very low temperature: <crop labels>
+Crops requiring very high temperature: <crop labels>
+Crops requiring very low humidity: <crop labels>
+Crops requiring very low pH: <crop labels>
+Crops requiring very high pH: <crop labels>
+Summer Crops: <crop labels>
+Winter Crops: <crop labels>
+Rainy Crops: <crop labels>
+Feature Distribution
+The distribution of each feature is visualized using subplots. Each subplot represents the distribution plot for a specific feature.
+
+Cluster Analysis
+The optimum number of clusters is determined using the Elbow method. The dataset is then clustered into four clusters using the K-means algorithm. The crops belonging to each cluster are displayed.
+
+Model Training and Evaluation
+The dataset is split into training and testing sets using an 80:20 ratio. Logistic Regression is applied to train the model, and predictions are made on the test set. The performance of the model is evaluated using various metrics, including accuracy, precision, recall, F1-score, and the confusion matrix. The classification report provides detailed metrics for each class.
+
+Crop Prediction
+A sample prediction is made using the trained model based on provided climatic conditions. The suggested crop for the given climatic conditions is displayed.
+
+Conclusion
+In this project, we have analyzed the Agriculture Production dataset using various data science techniques. The insights gained from the analysis can help farmers and agricultural stakeholders make informed decisions about crop selection and farming practices based on different climatic conditions and soil characteristics. The trained model can be utilized for crop prediction and recommendation purposes.
+
+The code and the report are available on GitHub for reference and further exploration.
