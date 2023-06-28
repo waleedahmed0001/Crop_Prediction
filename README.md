@@ -16,11 +16,17 @@ The shape of the dataset is (N, 8), where N=2200 represents the number of data p
 ## Exploratory Data Analysis
 The mean values for each feature are as follows:
 Mean of N: 50.55
+
 Mean of P: 53.36
+
 Mean of K: 48.15
+
 Mean of temperature: 25.62
+
 Mean of humidity: 71.48
+
 Mean of ph: 6.47
+
 Mean of rainfall: 103.46
 
 ## Crop Summary
