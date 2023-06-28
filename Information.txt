@@ -11,19 +11,23 @@ temperature: Temperature in degrees Celsius
 humidity: Relative humidity in percentage
 ph: pH value of the soil
 rainfall: Rainfall in mm
-The shape of the dataset is (N, 8), where N represents the number of data points. The dataset does not contain any missing values.
+The shape of the dataset is (N, 8), where N=2200 represents the number of data points. The dataset does not contain any missing values.
 
 Exploratory Data Analysis
 Summary Statistics
 The mean values for each feature are as follows:
 
-Mean of N: <value>
-Mean of P: <value>
-Mean of K: <value>
-Mean of temperature: <value>
-Mean of humidity: <value>
-Mean of ph: <value>
-Mean of rainfall: <value>
+Mean of P: 53.36
+
+Mean of K: 48.15
+
+Mean of temperature: 25.62
+
+Mean of humidity: 71.48
+
+Mean of ph: 6.47
+
+Mean of rainfall: 103.46
 Crop Summary
 Interactively, you can select a crop label to view its summary statistics. The summary includes the minimum, average, and maximum values required for each feature by the selected crop.
 
